@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "report_id": "demo-feed-2026-10-24",
+  "report_date": "2026-10-24",
+  "is_demo": true,
+  "period_start": "2026-10-17",
+  "period_end": "2026-10-23",
+  "papers": [
+    {
+      "title_zh": "【测试数据】科研文献数据连接验证",
+      "title_en": "DEMO ONLY: DayBloom literature feed connection test",
+      "authors": [
+        "DayBloom Test"
+      ],
+      "journal": "TEST DATA — not a real journal",
+      "year": 2026,
+      "published_date": null,
+      "abstract_zh": "这是一篇用于验证 DayBloom 从公开数据源读取文献结构的测试记录。它并非真实发表的学术论文，请勿将其作为科研文献引用。",
+      "keywords": [
+        "测试",
+        "自动同步",
+        "DayBloom"
+      ],
+      "recommendation": "拓展了解",
+      "reason": "仅用于验证网络读取和卡片渲染。",
+      "doi": null,
+      "url": null,
+      "analysis_level": "brief",
+      "source_basis": "demo",
+      "deep_analysis": null
+    }
+  ]
+}
