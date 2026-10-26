@@ -1,0 +1,231 @@
+{
+  "schema_version": "1.0",
+  "report_id": "weekly-2026-10-26",
+  "report_date": "2026-10-26",
+  "period_start": "2026-10-26",
+  "period_end": "2026-11-01",
+  "is_demo": false,
+  "papers": [
+    {
+      "title_zh": "双层动态结构方程模型入门：使用 Mplus 分析密集追踪数据",
+      "title_en": "A primer on two-level dynamic structural equation models for intensive longitudinal data in Mplus",
+      "authors": [
+        "Daniel McNeish",
+        "Ellen L. Hamaker"
+      ],
+      "journal": "Psychological Methods",
+      "year": 2020,
+      "published_date": "2019-12-19",
+      "abstract_zh": "这篇方法教程从单个个体的时间序列模型出发，逐步扩展到适用于多名被试、每人多次测量的双层动态结构方程模型（DSEM）。文章旨在帮助心理学研究者理解自回归、个体内动态关系与个体间差异，并提供 Mplus 模型代码模板和结果解释思路。它主要是方法教学，而非报告某种心理现象的实证发现。",
+      "keywords": [
+        "密集追踪数据",
+        "DSEM",
+        "时间序列",
+        "多层模型",
+        "Mplus"
+      ],
+      "recommendation": "重点推荐",
+      "reason": "适合作为DSEM学习起点，先建立个体内/个体间和时间滞后概念。",
+      "doi": "10.1037/met0000250",
+      "url": "https://doi.org/10.1037/met0000250",
+      "analysis_level": "deep",
+      "source_basis": "abstract",
+      "deep_analysis": {
+        "research_question": "如何把单人时间序列模型扩展为多人密集追踪数据的DSEM，并正确解释参数？",
+        "study_design": "方法教学与示例演示；不是检验某项临床效应的单一实证研究。",
+        "methods": "单人AR(1)与多层模型逐步过渡至两层DSEM；用Mplus代码与参数解释教学。",
+        "findings": "论文的贡献是概念、模板和结果解释框架，而非可泛化的预测准确率。",
+        "innovation": "将心理学研究者熟悉的多层思路与时间序列/动态SEM衔接。",
+        "limitations": "摘要不支持评价具体数值表现；模型假设与时间间隔须结合全文和实际数据判断。",
+        "relevance": "为后续DSEM、动态中介、个体内心理状态建模建立方法基础。"
+      }
+    },
+    {
+      "title_zh": "密集追踪数据的中介效应分析",
+      "title_en": "Mediation analysis of intensive longitudinal data",
+      "authors": [
+        "方杰",
+        "温忠麟",
+        "董育铭",
+        "王晓洁"
+      ],
+      "journal": "心理科学进展 / Advances in Psychological Science",
+      "year": 2025,
+      "published_date": "2025-04-15",
+      "abstract_zh": "文章讨论在密集追踪研究中分析中介效应时，为什么不能只照搬传统多水平中介模型。作者以1-1-1中介模型为例，比较多水平自回归模型、残差模型、动态结构方程模型及其交叉分类变式，提出分析流程，并提供 Mplus 和 R 示例代码。核心是将变量的时间先后顺序和动态关联纳入中介路径的建模。",
+      "keywords": [
+        "密集追踪数据",
+        "中介效应",
+        "多水平自回归模型",
+        "DSEM",
+        "去趋势"
+      ],
+      "recommendation": "重点推荐",
+      "reason": "连接已有中介效应知识与密集追踪动态分析，并附代码。",
+      "doi": "10.3724/SP.J.1042.2025.0717",
+      "url": "https://doi.org/10.3724/SP.J.1042.2025.0717",
+      "analysis_level": "deep",
+      "source_basis": "abstract",
+      "deep_analysis": {
+        "research_question": "如何在高频重复测量中同时考虑时间顺序、趋势与个体内变化，估计动态中介？",
+        "study_design": "方法学文章；以1-1-1中介模型为主线，比较五类建模方案并演示。",
+        "methods": "MAM、RMAM、DSEM、RDSEM、交叉分类DSEM；按去趋势需要及模型收敛状况选择。",
+        "findings": "提出基于时间序列依赖、趋势处理和收敛的分析流程，给出Mplus和R示例。",
+        "innovation": "将时间顺序和动态关联明确纳入密集追踪中介效应分析的决策。",
+        "limitations": "重点是1-1-1结构；时间滞后与因果解释需要理论和研究设计支撑。",
+        "relevance": "与中介效应课程直接衔接，适合学习动态机制而非只做预测。"
+      }
+    },
+    {
+      "title_zh": "密集追踪数据中的时间尺度：离散时间与连续时间的建模、比较与应用",
+      "title_en": "Time scales in intensive longitudinal data: Modeling, comparison and application of discrete time and continuous time",
+      "authors": [
+        "桑婕妤",
+        "刘源",
+        "位东涛"
+      ],
+      "journal": "心理科学进展 / Advances in Psychological Science",
+      "year": 2026,
+      "published_date": "2026-09-15",
+      "abstract_zh": "文章比较密集追踪研究中离散时间与连续时间两种动态建模框架，特别关注测量间隔、参数转换、等间隔假设被破坏时的后果以及估计的影响因素。作者结合一项日记研究说明两类模型在建模和结果解释上的异同，为何时使用自回归式离散模型、何时考虑连续时间模型提供方法依据。",
+      "keywords": [
+        "动态研究",
+        "密集追踪数据",
+        "离散时间",
+        "连续时间",
+        "测量间隔"
+      ],
+      "recommendation": "重点推荐",
+      "reason": "对理解不等间隔采样、滞后系数及连续时间参数很关键。",
+      "doi": "10.3724/SP.J.1042.2026.1629",
+      "url": "https://doi.org/10.3724/SP.J.1042.2026.1629",
+      "analysis_level": "deep",
+      "source_basis": "abstract",
+      "deep_analysis": {
+        "research_question": "不同采样间隔如何改变动态效应参数，何时使用离散或连续时间模型？",
+        "study_design": "方法综述、统一参数框架比较与日记研究案例演示。",
+        "methods": "离散时间动态模型与连续时间动态模型，参数转换、等间隔假设和估计因素讨论。",
+        "findings": "展示两种时间尺度建模的共同点与差异，并提出选模参考。",
+        "innovation": "将时间尺度、间隔不等和参数可比性放在同一方法框架下。",
+        "limitations": "可访问摘要未提供案例的具体参数和拟合指标，不能据此断言某一模型总是更优。",
+        "relevance": "后续做EMA、纵向多模态采样或不规则时间戳分析时特别有用。"
+      }
+    },
+    {
+      "title_zh": "基于动态结构方程模型的密集追踪干预研究建模与样本量规划",
+      "title_en": "Data analysis and sample size planning for intensive longitudinal intervention studies using dynamic structural equation modeling",
+      "authors": [
+        "刘玥",
+        "何月翎",
+        "刘红云"
+      ],
+      "journal": "心理学报 / Acta Psychologica Sinica",
+      "year": 2026,
+      "published_date": "2026-04-25",
+      "abstract_zh": "研究面向密集追踪干预设计，针对常规分析方法难以充分利用高频测量信息、样本量规划缺少配套方法的问题，比较单臂设计和随机对照设计。在DSEM框架下结合检验力、效应估计准确性和第一类错误率开展模拟研究，并提出实验设计与样本量规划建议。它提示研究者不能只考虑被试数，还要关注每名被试的测量次数。",
+      "keywords": [
+        "密集追踪干预",
+        "DSEM",
+        "样本量规划",
+        "统计检验力",
+        "模拟研究"
+      ],
+      "recommendation": "值得阅读",
+      "reason": "帮助从“会拟合模型”进阶到“如何设计有检验力的研究”。",
+      "doi": "10.3724/SP.J.1041.2026.0773",
+      "url": "https://doi.org/10.3724/SP.J.1041.2026.0773",
+      "analysis_level": "brief",
+      "source_basis": "abstract",
+      "deep_analysis": null
+    },
+    {
+      "title_zh": "即时自适应生态瞬时评估（JITA-EMA）",
+      "title_en": "Just-in-time adaptive ecological momentary assessment (JITA-EMA)",
+      "authors": [
+        "Stefan Schneider",
+        "Doerte U. Junghaenel",
+        "Joshua M. Smyth",
+        "Cheng K Fred Wen",
+        "Arthur A. Stone"
+      ],
+      "journal": "Behavior Research Methods",
+      "year": 2024,
+      "published_date": "2023-02-25",
+      "abstract_zh": "文章提出即时自适应生态瞬时评估（JITA-EMA），将计算机化自适应分类测验思想用于日常状态的高频测量。系统可根据个体既往信息和当前回答选择问题、调整停止规则和分类阈值，以尽可能少的题目判断当下状态。两项以疲劳状态为例的模拟研究表明，与固定题目方案相比，它能用更少题目获得更准确的状态分类。",
+      "keywords": [
+        "生态瞬时评估",
+        "即时自适应干预",
+        "计算机化自适应测验",
+        "移动健康"
+      ],
+      "recommendation": "值得阅读",
+      "reason": "从测量误差与被试负担角度理解高频追踪的设计。",
+      "doi": "10.3758/s13428-023-02083-8",
+      "url": "https://doi.org/10.3758/s13428-023-02083-8",
+      "analysis_level": "brief",
+      "source_basis": "full_text",
+      "deep_analysis": null
+    },
+    {
+      "title_zh": "利用文本与音频自动检测抑郁：系统综述",
+      "title_en": "Automated Depression Detection From Text and Audio: A Systematic Review",
+      "authors": [
+        "Yuxin Li",
+        "Sinchana Kumbale",
+        "Yanru Chen",
+        "Tanmay Surana",
+        "Eng Siong Chng",
+        "Cuntai Guan"
+      ],
+      "journal": "IEEE Journal of Biomedical and Health Informatics",
+      "year": 2025,
+      "published_date": "2025-05-16",
+      "abstract_zh": "这篇系统综述评估2018—2024年间65项使用文本、语音及相关多模态机器学习方法进行抑郁自动检测的研究，梳理数据增强、特征提取、模态融合与模型评估策略。作者强调当前研究仍面临数据集质量、跨文化适用性、模型可解释性和真实情境纵向验证不足的问题。适合建立语音与文本联合建模的整体方法地图。",
+      "keywords": [
+        "抑郁检测",
+        "语音分析",
+        "文本分析",
+        "多模态融合",
+        "可解释机器学习"
+      ],
+      "recommendation": "值得阅读",
+      "reason": "直接对应语音特征、文本融合与心理健康研究的可解释性问题。",
+      "doi": "10.1109/JBHI.2025.3570900",
+      "url": "https://doi.org/10.1109/JBHI.2025.3570900",
+      "analysis_level": "brief",
+      "source_basis": "abstract",
+      "deep_analysis": null
+    },
+    {
+      "title_zh": "利用机器学习从语言检测抑郁：系统综述与元分析",
+      "title_en": "Language-based detection of depression with machine learning: systematic review and meta-analysis",
+      "authors": [
+        "Hadar Fisher",
+        "Nigel M. Jaffe",
+        "Kristina Pidvirny",
+        "Anna O. Tierney",
+        "Mia S. Vaidean",
+        "Poorvesh Dongre",
+        "Christian A. Webb"
+      ],
+      "journal": "npj Digital Medicine",
+      "year": 2026,
+      "published_date": "2026-02-24",
+      "abstract_zh": "研究系统检索使用自然语言处理与机器学习从口语或书面文本识别抑郁的证据，纳入123篇研究，并对可合并的数据进行元分析。43项研究、40,983份文本样本的合并准确率约为0.80，平衡准确率约为0.71；不同文本来源、语言、特征与分类器之间存在明显差异。作者强调现阶段结果有潜力，但异质性与验证问题限制临床直接使用。",
+      "keywords": [
+        "抑郁",
+        "自然语言处理",
+        "机器学习",
+        "元分析",
+        "模型泛化"
+      ],
+      "recommendation": "值得阅读",
+      "reason": "帮助建立评价指标、异质性与跨数据集泛化的证据意识。",
+      "doi": "10.1038/s41746-026-02448-1",
+      "url": "https://doi.org/10.1038/s41746-026-02448-1",
+      "analysis_level": "brief",
+      "source_basis": "abstract",
+      "deep_analysis": null
+    }
+  ]
+}
