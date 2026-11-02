@@ -1,0 +1,226 @@
+{
+  "schema_version": "1.0",
+  "report_id": "weekly-2026-11-02",
+  "report_date": "2026-11-02",
+  "period_start": "2026-11-02",
+  "period_end": "2026-11-08",
+  "is_demo": false,
+  "papers": [
+    {
+      "title_zh": "密集追踪数据中的时间尺度不匹配：基于动态结构方程模型的问题与解决方案",
+      "title_en": "Timescale mismatch in intensive longitudinal data: Current issues and possible solutions based on dynamic structural equation models",
+      "authors": [
+        "Xiaohui Luo",
+        "Yueqin Hu",
+        "Hongyun Liu"
+      ],
+      "journal": "Psychological Methods",
+      "year": 2025,
+      "published_date": "2025-05-19",
+      "abstract_zh": "研究关注密集追踪中两个变量测量频率不同所造成的模型偏差。作者比较部分路径模型、平均分模型与完整路径、因子及调整因子模型。模拟研究显示：完整路径模型更能描述密集测量变量各时点的作用；平均分模型可能使自回归与交叉滞后参数有偏；因子模型及调整因子模型在相应条件下能降低偏差，并用实证数据说明差异。",
+      "keywords": [
+        "时间尺度不匹配",
+        "DSEM",
+        "交叉滞后",
+        "自回归",
+        "因子模型"
+      ],
+      "recommendation": "重点推荐",
+      "reason": "直接涉及DSEM模型设定和时间尺度错配，是理解高频心理状态数据的核心方法论文。",
+      "doi": "10.1037/met0000749",
+      "url": "https://doi.org/10.1037/met0000749",
+      "analysis_level": "deep",
+      "source_basis": "abstract",
+      "deep_analysis": {
+        "research_question": "当两个心理变量以不同频率被测量时，如何估计它们的自回归和交叉滞后作用而减少偏差？",
+        "study_design": "方法比较研究：多项模拟研究加一项实证示范；论文摘要可核实研究1、2-1、2-2、3。",
+        "methods": "在DSEM框架下比较部分路径、完整路径、平均分、因子与调整因子模型。",
+        "findings": "完整路径模型比部分路径更能呈现密集变量的时点效应；平均分模型可能导致自回归及交叉滞后估计有偏；因子模型较准确，存在密集变量跨时点回归时调整因子模型偏差更小。",
+        "innovation": "将时间尺度不匹配明确作为DSEM模型设定问题，区分逐时点作用与整体效应。",
+        "limitations": "公开可核实材料以摘要为主；不能据此推断全部模拟条件下均优于其他模型，亦不能证明因果。",
+        "relevance": "为生态瞬时评估中不同频率测量的情绪、压力和行为变量选择模型提供参考。"
+      }
+    },
+    {
+      "title_zh": "多层向量自回归模型中个体内潜变量交互效应的建模",
+      "title_en": "Modeling within-level latent interaction effects in multilevel vector-autoregressive models",
+      "authors": [
+        "Jana Holtmann",
+        "Kenneth Koslowski"
+      ],
+      "journal": "Behavior Research Methods",
+      "year": 2025,
+      "published_date": "2025-09-05",
+      "abstract_zh": "本文在多层潜变量时间序列模型中加入随时间变化的潜在调节因素，使个体内的滞后关系可以随情境而改变。作者给出基于贝叶斯MCMC估计的模型教程，并用负性情绪、反刍与正念注意的实证案例演示。模拟研究比较不同复杂度模型，提示模型越复杂越需要足够的被试数与重复测量次数，不能仅凭模型拟合成功就认为交互效应可靠。",
+      "keywords": [
+        "调节效应",
+        "潜变量交互",
+        "时间序列",
+        "动态结构方程模型",
+        "密集追踪数据"
+      ],
+      "recommendation": "重点推荐",
+      "reason": "把刚学过的调节效应连接到动态VAR/DSEM，并提供公开代码与模拟指导。",
+      "doi": "10.3758/s13428-025-02694-3",
+      "url": "https://doi.org/10.3758/s13428-025-02694-3",
+      "analysis_level": "deep",
+      "source_basis": "full_text",
+      "deep_analysis": {
+        "research_question": "负性情绪与反刍的动态关系，是否会随着正念等随时间变化的潜变量而改变？",
+        "study_design": "方法教程、两项经验数据应用与多组模拟比较。",
+        "methods": "多层潜变量VAR中加入个体内潜在交互，使用贝叶斯MCMC估计，讨论测量误差与个体均值中心化。",
+        "findings": "提供不同复杂度模型的可行性与样本需求建议；简单固定效应模型与复杂随机效应因子模型对被试数及时间点的要求明显不同。",
+        "innovation": "将时间变化的潜在调节纳入个体内动态参数，超越固定不变的滞后关系假设。",
+        "limitations": "复杂模型对测量次数、先验和收敛较敏感；模型估计与交互显著不等于因果机制成立。",
+        "relevance": "适用于研究情绪惯性在不同情境或正念水平下如何改变。"
+      }
+    },
+    {
+      "title_zh": "密集追踪数据的收集方案优化和分析方法改进",
+      "title_en": "Optimization of data collection plans and improvement of data analysis methods for intensive longitudinal studies",
+      "authors": [
+        "刘红云",
+        "窦佳宁",
+        "徐永泽"
+      ],
+      "journal": "心理科学进展",
+      "year": 2025,
+      "published_date": "2025-09-15",
+      "abstract_zh": "这是一篇研究构想文章，关注密集追踪设计的高测量负担、低依从性和缺失数据问题。研究计划把计划缺失设计引入DSEM框架，通过蒙特卡洛模拟比较不同测量方案，结合机器学习代理模型优化样本量规划，并探索贝叶斯缺失数据处理及工具开发。文中描述的是拟开展的方法研究与应用验证，不能当作所有方法均已实证证实的最终成果。",
+      "keywords": [
+        "纵向数据分析",
+        "结构方程模型",
+        "缺失数据分析",
+        "计划缺失设计",
+        "样本量规划"
+      ],
+      "recommendation": "值得阅读",
+      "reason": "适合建立研究设计意识：先决定采样频率、测量负担与缺失机制，再谈复杂模型。",
+      "doi": "10.3724/SP.J.1042.2025.1558",
+      "url": "https://doi.org/10.3724/SP.J.1042.2025.1558",
+      "analysis_level": "brief",
+      "source_basis": "abstract",
+      "deep_analysis": null
+    },
+    {
+      "title_zh": "密集追踪成对数据分析的模型建构探索",
+      "title_en": "Model construction for intensive longitudinal dyadic data analysis",
+      "authors": [
+        "肖悦",
+        "刘红云",
+        "徐永泽"
+      ],
+      "journal": "心理科学进展",
+      "year": 2024,
+      "published_date": "2024-09-15",
+      "abstract_zh": "本文提出将DSEM扩展到具有相互依赖关系的成对数据：两人互相影响、一人对多人互动，以及群体成员两两互动。作者讨论个体内动态效应、伴侣效应和时间趋势处理，拟借助模拟、实证与软件开发验证方法。由于属于研究构想，文章的重点是方法框架和拟解决的统计难题，而不是已经得到确定的因果结论。",
+      "keywords": [
+        "密集追踪数据",
+        "成对研究设计",
+        "模型建构",
+        "动态结构方程模型"
+      ],
+      "recommendation": "拓展了解",
+      "reason": "帮助理解独立个体模型的边界，扩展到夫妻、同伴、治疗师—来访者等互动研究。",
+      "doi": "10.3724/SP.J.1042.2024.01450",
+      "url": "https://doi.org/10.3724/SP.J.1042.2024.01450",
+      "analysis_level": "brief",
+      "source_basis": "full_text",
+      "deep_analysis": null
+    },
+    {
+      "title_zh": "使用广义线性混合模型树识别线性增长曲线中的亚群",
+      "title_en": "Subgroup detection in linear growth curve models with generalized linear mixed model (GLMM) trees",
+      "authors": [
+        "Marjolein Fokkema",
+        "Achim Zeileis"
+      ],
+      "journal": "Behavior Research Methods",
+      "year": 2024,
+      "published_date": "2024-05-29",
+      "abstract_zh": "本文将广义线性混合模型树扩展到纵向增长曲线数据，利用树模型寻找轨迹形状不同的潜在亚群。模拟与真实数据比较显示，扩展算法比原始算法和LongCART更准确，表现与SEM树相近，且计算更快、对随机效应结构误设更不敏感。文章还提供可复现代码，可用来学习如何将传统混合效应模型与可解释机器学习结合。",
+      "keywords": [
+        "增长曲线模型",
+        "决策树",
+        "基于模型的递归分割",
+        "混合效应模型"
+      ],
+      "recommendation": "值得阅读",
+      "reason": "与计算机背景衔接自然，能学习混合模型和决策树的结合及纵向异质性识别。",
+      "doi": "10.3758/s13428-024-02389-1",
+      "url": "https://doi.org/10.3758/s13428-024-02389-1",
+      "analysis_level": "brief",
+      "source_basis": "full_text",
+      "deep_analysis": null
+    },
+    {
+      "title_zh": "利用智能手机语音、多模态基准与主题分析开展可扩展抑郁监测",
+      "title_en": "Scalable depression monitoring with smartphone speech using a multimodal benchmark and topic analysis",
+      "authors": [
+        "Daniel Emden",
+        "Maike Richter",
+        "Astrid Chevance",
+        "Ramona Leenings",
+        "Julian Herpertz",
+        "et al."
+      ],
+      "journal": "npj Digital Medicine",
+      "year": 2026,
+      "published_date": "2026-02-28",
+      "abstract_zh": "研究分析284名德语成年人贡献的3151条每周语音日记，比较声学、词汇、文本嵌入与融合模型预测BDI抑郁症状评分的表现。句子嵌入是较强的单一模态：Qwen3-8B达到MAE 4.65、R² 0.34；E5与Qwen堆叠融合达到MAE 4.37、R² 0.41，额外声学信息贡献有限。作者采用按被试分组的嵌套交叉验证，提醒避免同一人跨训练测试集泄漏。",
+      "keywords": [
+        "语音日记",
+        "抑郁症状预测",
+        "文本嵌入",
+        "eGeMAPS",
+        "分组交叉验证",
+        "多模态融合"
+      ],
+      "recommendation": "重点推荐",
+      "reason": "直接比较eGeMAPS与文本嵌入、分组交叉验证和回归基线，是语音心理测评的高价值案例。",
+      "doi": "10.1038/s41746-026-02486-9",
+      "url": "https://doi.org/10.1038/s41746-026-02486-9",
+      "analysis_level": "deep",
+      "source_basis": "full_text",
+      "deep_analysis": {
+        "research_question": "自然情境下的语音日记中，声学特征、文本内容与嵌入表征哪一种更能预测抑郁症状严重程度？",
+        "study_design": "284人、3151条每周语音日记的纵向观察与机器学习基准比较。",
+        "methods": "提取eGeMAPS/ComParE、TF-IDF、文本嵌入，使用标准化、PCA、SVR与堆叠融合；按参与者分组的嵌套交叉验证，辅以主题分析和扰动实验。",
+        "findings": "Qwen3-8B单模态MAE 4.65、R² 0.34；E5+Qwen融合MAE 4.37、R² 0.41；声学增益有限，MDD子样本中E5单模态表现相对更好。",
+        "innovation": "在统一验证协议下直接比较语义与声学表征，关注被试泄漏和主题可解释性。",
+        "limitations": "BDI为自评指标，德语样本限制跨语言外推；观察设计不支持因果推断；主题解释并不等于模型机制解释。",
+        "relevance": "对语音心理测评中的特征选择、被试分组交叉验证与多模态增量价值评估具有直接参考价值。"
+      }
+    },
+    {
+      "title_zh": "以自监督语音表征辅助识别重性抑郁障碍的语音生物标志物研究",
+      "title_en": "Speech as a biomarker for supported diagnosis of major depressive disorder using self-supervised representations",
+      "authors": [
+        "Yunhan Lin",
+        "Biman Najika Liyanage",
+        "Chuan Shi",
+        "Zhengwen Zhu",
+        "et al."
+      ],
+      "journal": "Nature Communications",
+      "year": 2026,
+      "published_date": "2026-06-15",
+      "abstract_zh": "研究在多中心数据中收集1816名参与者的23608条标准化语音，比较openSMILE传统声学特征与Whisper、WavLM、HuBERT等自监督表征用于抑郁分类。论文报告内部验证AUC为0.932，外部验证AUC为0.879，并用SHAP分析传统声学特征的重要性。结果提示预训练语音表征有潜力，但跨人群泛化、状态与特质区分以及临床落地仍需验证。",
+      "keywords": [
+        "自监督学习",
+        "语音生物标志物",
+        "抑郁筛查",
+        "openSMILE",
+        "外部验证",
+        "SHAP"
+      ],
+      "recommendation": "值得阅读",
+      "reason": "展示传统声学特征与自监督表征的严谨对照，并有外部验证和公开代码。",
+      "doi": "10.1038/s41467-026-74122-9",
+      "url": "https://doi.org/10.1038/s41467-026-74122-9",
+      "analysis_level": "brief",
+      "source_basis": "full_text",
+      "deep_analysis": null
+    }
+  ]
+}
