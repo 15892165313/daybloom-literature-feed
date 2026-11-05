@@ -1,0 +1,250 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/15892165313/daybloom-literature-feed/blob/main/data/papers/schema-v1.1.json",
+  "title": "DayBloom Literature Weekly Report Schema v1.1",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "schema_version",
+    "report_id",
+    "report_date",
+    "period_start",
+    "period_end",
+    "is_demo",
+    "papers"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.1"
+    },
+    "report_id": {
+      "type": "string",
+      "pattern": "^weekly-\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "report_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "period_start": {
+      "type": "string",
+      "format": "date"
+    },
+    "period_end": {
+      "type": "string",
+      "format": "date"
+    },
+    "is_demo": {
+      "type": "boolean"
+    },
+    "papers": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": true,
+        "required": [
+          "title_zh",
+          "title_en",
+          "authors",
+          "journal",
+          "year",
+          "published_date",
+          "abstract_zh",
+          "keywords",
+          "recommendation",
+          "reason",
+          "doi",
+          "url",
+          "analysis_level",
+          "source_basis",
+          "deep_analysis",
+          "authors_complete",
+          "verification"
+        ],
+        "properties": {
+          "title_zh": {
+            "type": "string",
+            "minLength": 1
+          },
+          "title_en": {
+            "type": "string",
+            "minLength": 1
+          },
+          "authors": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1,
+              "not": {
+                "pattern": "^(et al\\.?|等)$"
+              }
+            }
+          },
+          "authors_complete": {
+            "type": "boolean"
+          },
+          "journal": {
+            "type": "string",
+            "minLength": 1
+          },
+          "year": {
+            "type": "integer",
+            "minimum": 1900,
+            "maximum": 2200
+          },
+          "published_date": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date"
+          },
+          "abstract_zh": {
+            "type": "string",
+            "minLength": 1
+          },
+          "keywords": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 6,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "recommendation": {
+            "enum": [
+              "重点推荐",
+              "值得阅读",
+              "拓展了解"
+            ]
+          },
+          "reason": {
+            "type": "string",
+            "minLength": 1
+          },
+          "doi": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "analysis_level": {
+            "enum": [
+              "brief",
+              "deep"
+            ]
+          },
+          "source_basis": {
+            "enum": [
+              "full_text",
+              "abstract",
+              "other"
+            ]
+          },
+          "deep_analysis": {
+            "type": [
+              "object",
+              "null"
+            ]
+          },
+          "verification": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "bibliographic_status",
+              "content_status",
+              "appraisal_status",
+              "verified_at",
+              "evidence_urls"
+            ],
+            "properties": {
+              "bibliographic_status": {
+                "enum": [
+                  "verified",
+                  "partial",
+                  "unverified"
+                ]
+              },
+              "content_status": {
+                "enum": [
+                  "full_checked",
+                  "partial_checked",
+                  "abstract_checked",
+                  "not_checked"
+                ]
+              },
+              "appraisal_status": {
+                "enum": [
+                  "completed",
+                  "limited",
+                  "not_assessed"
+                ]
+              },
+              "verified_at": {
+                "type": "string",
+                "format": "date"
+              },
+              "evidence_urls": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "string",
+                  "format": "uri"
+                }
+              }
+            }
+          }
+        },
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "analysis_level": {
+                  "const": "deep"
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "deep_analysis": {
+                  "type": "object",
+                  "required": [
+                    "research_question",
+                    "study_design",
+                    "methods",
+                    "findings",
+                    "innovation",
+                    "limitations",
+                    "relevance"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "analysis_level": {
+                  "const": "brief"
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "deep_analysis": {
+                  "type": "null"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
