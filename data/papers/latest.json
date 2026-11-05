@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "report_id": "weekly-2026-11-02",
   "report_date": "2026-11-02",
   "period_start": "2026-11-02",
@@ -39,6 +39,17 @@
         "innovation": "将时间尺度不匹配明确作为DSEM模型设定问题，区分逐时点作用与整体效应。",
         "limitations": "公开可核实材料以摘要为主；不能据此推断全部模拟条件下均优于其他模型，亦不能证明因果。",
         "relevance": "为生态瞬时评估中不同频率测量的情绪、压力和行为变量选择模型提供参考。"
+      },
+      "authors_complete": true,
+      "verification": {
+        "bibliographic_status": "verified",
+        "content_status": "abstract_checked",
+        "appraisal_status": "limited",
+        "verified_at": "2026-11-05",
+        "evidence_urls": [
+          "https://pubmed.ncbi.nlm.nih.gov/40388127/",
+          "https://luoxh3.github.io/assets/pdfs/2025online_PM_Timescale%20Mismatch.pdf"
+        ]
       }
     },
     {
@@ -73,6 +84,17 @@
         "innovation": "将时间变化的潜在调节纳入个体内动态参数，超越固定不变的滞后关系假设。",
         "limitations": "复杂模型对测量次数、先验和收敛较敏感；模型估计与交互显著不等于因果机制成立。",
         "relevance": "适用于研究情绪惯性在不同情境或正念水平下如何改变。"
+      },
+      "authors_complete": true,
+      "verification": {
+        "bibliographic_status": "verified",
+        "content_status": "partial_checked",
+        "appraisal_status": "limited",
+        "verified_at": "2026-11-05",
+        "evidence_urls": [
+          "https://link.springer.com/article/10.3758/s13428-025-02694-3",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC12413427/"
+        ]
       }
     },
     {
@@ -100,7 +122,17 @@
       "url": "https://doi.org/10.3724/SP.J.1042.2025.1558",
       "analysis_level": "brief",
       "source_basis": "abstract",
-      "deep_analysis": null
+      "deep_analysis": null,
+      "authors_complete": true,
+      "verification": {
+        "bibliographic_status": "verified",
+        "content_status": "abstract_checked",
+        "appraisal_status": "not_assessed",
+        "verified_at": "2026-11-05",
+        "evidence_urls": [
+          "https://journal.psych.ac.cn/xlkxjz/CN/10.3724/SP.J.1042.2025.1558"
+        ]
+      }
     },
     {
       "title_zh": "密集追踪成对数据分析的模型建构探索",
@@ -126,7 +158,17 @@
       "url": "https://doi.org/10.3724/SP.J.1042.2024.01450",
       "analysis_level": "brief",
       "source_basis": "full_text",
-      "deep_analysis": null
+      "deep_analysis": null,
+      "authors_complete": true,
+      "verification": {
+        "bibliographic_status": "verified",
+        "content_status": "abstract_checked",
+        "appraisal_status": "not_assessed",
+        "verified_at": "2026-11-05",
+        "evidence_urls": [
+          "https://journal.psych.ac.cn/xlkxjz/CN/Y2024/V32/I9/1450"
+        ]
+      }
     },
     {
       "title_zh": "使用广义线性混合模型树识别线性增长曲线中的亚群",
@@ -151,7 +193,18 @@
       "url": "https://doi.org/10.3758/s13428-024-02389-1",
       "analysis_level": "brief",
       "source_basis": "full_text",
-      "deep_analysis": null
+      "deep_analysis": null,
+      "authors_complete": true,
+      "verification": {
+        "bibliographic_status": "verified",
+        "content_status": "abstract_checked",
+        "appraisal_status": "not_assessed",
+        "verified_at": "2026-11-05",
+        "evidence_urls": [
+          "https://link.springer.com/article/10.3758/s13428-024-02389-1",
+          "https://pubmed.ncbi.nlm.nih.gov/38811518/"
+        ]
+      }
     },
     {
       "title_zh": "利用智能手机语音、多模态基准与主题分析开展可扩展抑郁监测",
@@ -162,7 +215,29 @@
         "Astrid Chevance",
         "Ramona Leenings",
         "Julian Herpertz",
-        "et al."
+        "Lara Gutfleisch",
+        "Anna Fleuchaus",
+        "Rogério Blitz",
+        "Vincent L Holstein",
+        "Janik Goltermann",
+        "Nils R Winter",
+        "Jennifer Spanagel",
+        "Susanne Meinert",
+        "Tiana Borgers",
+        "Kira Flinkenflügel",
+        "Frederike Stein",
+        "Nina Alexander",
+        "Hamidreza Jamalabadi",
+        "Jonathan Repple",
+        "Christian Dobel",
+        "Elisabeth J Leehr",
+        "Ronny Redlich",
+        "Ulrich W Ebner-Priemer",
+        "Igor Nenadić",
+        "Tilo Kircher",
+        "Udo Dannlowski",
+        "Tim Hahn",
+        "Nils Opel"
       ],
       "journal": "npj Digital Medicine",
       "year": 2026,
@@ -190,6 +265,17 @@
         "innovation": "在统一验证协议下直接比较语义与声学表征，关注被试泄漏和主题可解释性。",
         "limitations": "BDI为自评指标，德语样本限制跨语言外推；观察设计不支持因果推断；主题解释并不等于模型机制解释。",
         "relevance": "对语音心理测评中的特征选择、被试分组交叉验证与多模态增量价值评估具有直接参考价值。"
+      },
+      "authors_complete": true,
+      "verification": {
+        "bibliographic_status": "verified",
+        "content_status": "full_checked",
+        "appraisal_status": "completed",
+        "verified_at": "2026-11-05",
+        "evidence_urls": [
+          "https://pubmed.ncbi.nlm.nih.gov/41764298/",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC12996298/"
+        ]
       }
     },
     {
@@ -200,7 +286,16 @@
         "Biman Najika Liyanage",
         "Chuan Shi",
         "Zhengwen Zhu",
-        "et al."
+        "Yutao Sun",
+        "Yaoyao Sun",
+        "Ziwei Sunny Zhang",
+        "Jun Yang",
+        "Chenyang Xu",
+        "Yundan Liao",
+        "Yanbao Tao",
+        "Zongfeng Li",
+        "Guorui Zhao",
+        "Weihua Yue"
       ],
       "journal": "Nature Communications",
       "year": 2026,
@@ -220,7 +315,18 @@
       "url": "https://doi.org/10.1038/s41467-026-74122-9",
       "analysis_level": "brief",
       "source_basis": "full_text",
-      "deep_analysis": null
+      "deep_analysis": null,
+      "authors_complete": true,
+      "verification": {
+        "bibliographic_status": "verified",
+        "content_status": "partial_checked",
+        "appraisal_status": "limited",
+        "verified_at": "2026-11-05",
+        "evidence_urls": [
+          "https://pubmed.ncbi.nlm.nih.gov/42297825/",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC13444143/"
+        ]
+      }
     }
   ]
 }
