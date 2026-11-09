@@ -1,125 +1,135 @@
 {
   "schema_version": "1.1",
-  "report_id": "weekly-2026-11-02",
-  "report_date": "2026-11-02",
-  "period_start": "2026-11-02",
-  "period_end": "2026-11-08",
+  "report_id": "weekly-2026-11-09",
+  "report_date": "2026-11-09",
+  "period_start": "2026-11-09",
+  "period_end": "2026-11-15",
   "is_demo": false,
   "papers": [
     {
-      "title_zh": "密集追踪数据中的时间尺度不匹配：基于动态结构方程模型的问题与解决方案",
-      "title_en": "Timescale mismatch in intensive longitudinal data: Current issues and possible solutions based on dynamic structural equation models",
+      "title_zh": "传统交叉滞后面板模型的批判",
+      "title_en": "A critique of the cross-lagged panel model",
       "authors": [
-        "Xiaohui Luo",
-        "Yueqin Hu",
-        "Hongyun Liu"
+        "Ellen L. Hamaker",
+        "Rebecca M. Kuiper",
+        "Raoul P. P. P. Grasman"
+      ],
+      "journal": "Psychological Methods",
+      "year": 2015,
+      "published_date": "2015-03-01",
+      "abstract_zh": "研究指出，传统交叉滞后面板模型若未将稳定的个体间差异与个体内变化分开，滞后回归参数可能混合两种来源，导致对效应大小、方向乃至符号的错误理解。作者提出带随机截距的替代模型，利用理论推导、模拟和实证示例说明该问题。文章适合作为理解RI-CLPM及个体内动态建模的基础，但滞后关联本身不保证因果识别。",
+      "keywords": [
+        "交叉滞后",
+        "个体内效应",
+        "随机截距"
+      ],
+      "recommendation": "重点推荐",
+      "reason": "理解个体间差异与个体内变化的基础方法论文。",
+      "doi": "10.1037/a0038889",
+      "url": "https://doi.org/10.1037/a0038889",
+      "analysis_level": "brief",
+      "source_basis": "abstract",
+      "deep_analysis": null,
+      "authors_complete": true,
+      "verification": {
+        "bibliographic_status": "verified",
+        "content_status": "abstract_checked",
+        "appraisal_status": "limited",
+        "verified_at": "2026-11-09",
+        "evidence_urls": [
+          "https://pubmed.ncbi.nlm.nih.gov/25822208/"
+        ]
+      }
+    },
+    {
+      "title_zh": "两层动态结构方程模型入门：基于Mplus的密集追踪数据分析",
+      "title_en": "A primer on two-level dynamic structural equation models for intensive longitudinal data in Mplus",
+      "authors": [
+        "Daniel McNeish",
+        "Ellen L. Hamaker"
+      ],
+      "journal": "Psychological Methods",
+      "year": 2020,
+      "published_date": "2019-12-19",
+      "abstract_zh": "这篇教程从单人时间序列的基础概念出发，逐步介绍多人密集追踪数据中的两层动态结构方程模型，重点在于帮助心理学研究者理解自回归、动态关系、个体间异质性和参数解释。作者还提供Mplus示例代码及结果解读思路。论文的主要价值是搭建概念框架，而非提出一个在所有场景都优于其他模型的新算法。",
+      "keywords": [
+        "DSEM",
+        "多层模型",
+        "时间序列"
+      ],
+      "recommendation": "重点推荐",
+      "reason": "与正在学习的DSEM概念直接衔接。",
+      "doi": "10.1037/met0000250",
+      "url": "https://doi.org/10.1037/met0000250",
+      "analysis_level": "brief",
+      "source_basis": "abstract",
+      "deep_analysis": null,
+      "authors_complete": true,
+      "verification": {
+        "bibliographic_status": "verified",
+        "content_status": "abstract_checked",
+        "appraisal_status": "limited",
+        "verified_at": "2026-11-09",
+        "evidence_urls": [
+          "https://pubmed.ncbi.nlm.nih.gov/31855015/"
+        ]
+      }
+    },
+    {
+      "title_zh": "动态结构方程模型",
+      "title_en": "Dynamic Structural Equation Models",
+      "authors": [
+        "Tihomir Asparouhov",
+        "Ellen L. Hamaker",
+        "Bengt Muthén"
+      ],
+      "journal": "Structural Equation Modeling: A Multidisciplinary Journal",
+      "year": 2018,
+      "published_date": "2017-12-27",
+      "abstract_zh": "作者提出将时间序列分析与结构方程模型结合的DSEM框架，允许在密集追踪数据中同时建模观测或潜在变量的时间变化、动态滞后效应及个体差异。论文介绍贝叶斯估计策略，包括Gibbs和Metropolis–Hastings抽样，并通过模拟研究说明模型及估计方法。其核心价值在于建立动态建模的整体框架，但复杂模型仍依赖合适的数据设计与估计诊断。",
+      "keywords": [
+        "DSEM",
+        "贝叶斯估计",
+        "潜变量"
+      ],
+      "recommendation": "重点推荐",
+      "reason": "DSEM原始框架论文，适合与入门教程对读。",
+      "doi": "10.1080/10705511.2017.1406803",
+      "url": "https://doi.org/10.1080/10705511.2017.1406803",
+      "analysis_level": "brief",
+      "source_basis": "abstract",
+      "deep_analysis": null,
+      "authors_complete": true,
+      "verification": {
+        "bibliographic_status": "verified",
+        "content_status": "abstract_checked",
+        "appraisal_status": "limited",
+        "verified_at": "2026-11-09",
+        "evidence_urls": [
+          "https://www.tandfonline.com/doi/abs/10.1080/10705511.2017.1406803"
+        ]
+      }
+    },
+    {
+      "title_zh": "利用lavaan从观察性纵向数据估计动态干预策略的教程",
+      "title_en": "A tutorial on estimating dynamic treatment regimes from observational longitudinal data using lavaan",
+      "authors": [
+        "Wen Wei Loh",
+        "Terrence D. Jorgensen"
       ],
       "journal": "Psychological Methods",
       "year": 2025,
-      "published_date": "2025-05-19",
-      "abstract_zh": "研究关注密集追踪中两个变量测量频率不同所造成的模型偏差。作者比较部分路径模型、平均分模型与完整路径、因子及调整因子模型。模拟研究显示：完整路径模型更能描述密集测量变量各时点的作用；平均分模型可能使自回归与交叉滞后参数有偏；因子模型及调整因子模型在相应条件下能降低偏差，并用实证数据说明差异。",
+      "published_date": "2025-03-06",
+      "abstract_zh": "该方法教程讨论当个体状态和干预需求随时间改变时，如何根据历史响应调整后续干预。作者介绍动态治疗策略及其反事实结局估计问题，使用心理学研究者熟悉的lavaan演示从观察性纵向数据进行分析。它与常规DSEM预测不同，重点是策略与潜在结果；若要作因果解释，仍需认真检查未测量混杂等识别假设。",
       "keywords": [
-        "时间尺度不匹配",
-        "DSEM",
-        "交叉滞后",
-        "自回归",
-        "因子模型"
-      ],
-      "recommendation": "重点推荐",
-      "reason": "直接涉及DSEM模型设定和时间尺度错配，是理解高频心理状态数据的核心方法论文。",
-      "doi": "10.1037/met0000749",
-      "url": "https://doi.org/10.1037/met0000749",
-      "analysis_level": "deep",
-      "source_basis": "abstract",
-      "deep_analysis": {
-        "research_question": "当两个心理变量以不同频率被测量时，如何估计它们的自回归和交叉滞后作用而减少偏差？",
-        "study_design": "方法比较研究：多项模拟研究加一项实证示范；论文摘要可核实研究1、2-1、2-2、3。",
-        "methods": "在DSEM框架下比较部分路径、完整路径、平均分、因子与调整因子模型。",
-        "findings": "完整路径模型比部分路径更能呈现密集变量的时点效应；平均分模型可能导致自回归及交叉滞后估计有偏；因子模型较准确，存在密集变量跨时点回归时调整因子模型偏差更小。",
-        "innovation": "将时间尺度不匹配明确作为DSEM模型设定问题，区分逐时点作用与整体效应。",
-        "limitations": "公开可核实材料以摘要为主；不能据此推断全部模拟条件下均优于其他模型，亦不能证明因果。",
-        "relevance": "为生态瞬时评估中不同频率测量的情绪、压力和行为变量选择模型提供参考。"
-      },
-      "authors_complete": true,
-      "verification": {
-        "bibliographic_status": "verified",
-        "content_status": "abstract_checked",
-        "appraisal_status": "limited",
-        "verified_at": "2026-11-05",
-        "evidence_urls": [
-          "https://pubmed.ncbi.nlm.nih.gov/40388127/",
-          "https://luoxh3.github.io/assets/pdfs/2025online_PM_Timescale%20Mismatch.pdf"
-        ]
-      }
-    },
-    {
-      "title_zh": "多层向量自回归模型中个体内潜变量交互效应的建模",
-      "title_en": "Modeling within-level latent interaction effects in multilevel vector-autoregressive models",
-      "authors": [
-        "Jana Holtmann",
-        "Kenneth Koslowski"
-      ],
-      "journal": "Behavior Research Methods",
-      "year": 2025,
-      "published_date": "2025-09-05",
-      "abstract_zh": "本文在多层潜变量时间序列模型中加入随时间变化的潜在调节因素，使个体内的滞后关系可以随情境而改变。作者给出基于贝叶斯MCMC估计的模型教程，并用负性情绪、反刍与正念注意的实证案例演示。模拟研究比较不同复杂度模型，提示模型越复杂越需要足够的被试数与重复测量次数，不能仅凭模型拟合成功就认为交互效应可靠。",
-      "keywords": [
-        "调节效应",
-        "潜变量交互",
-        "时间序列",
-        "动态结构方程模型",
-        "密集追踪数据"
-      ],
-      "recommendation": "重点推荐",
-      "reason": "把刚学过的调节效应连接到动态VAR/DSEM，并提供公开代码与模拟指导。",
-      "doi": "10.3758/s13428-025-02694-3",
-      "url": "https://doi.org/10.3758/s13428-025-02694-3",
-      "analysis_level": "deep",
-      "source_basis": "full_text",
-      "deep_analysis": {
-        "research_question": "负性情绪与反刍的动态关系，是否会随着正念等随时间变化的潜变量而改变？",
-        "study_design": "方法教程、两项经验数据应用与多组模拟比较。",
-        "methods": "多层潜变量VAR中加入个体内潜在交互，使用贝叶斯MCMC估计，讨论测量误差与个体均值中心化。",
-        "findings": "提供不同复杂度模型的可行性与样本需求建议；简单固定效应模型与复杂随机效应因子模型对被试数及时间点的要求明显不同。",
-        "innovation": "将时间变化的潜在调节纳入个体内动态参数，超越固定不变的滞后关系假设。",
-        "limitations": "复杂模型对测量次数、先验和收敛较敏感；模型估计与交互显著不等于因果机制成立。",
-        "relevance": "适用于研究情绪惯性在不同情境或正念水平下如何改变。"
-      },
-      "authors_complete": true,
-      "verification": {
-        "bibliographic_status": "verified",
-        "content_status": "partial_checked",
-        "appraisal_status": "limited",
-        "verified_at": "2026-11-05",
-        "evidence_urls": [
-          "https://link.springer.com/article/10.3758/s13428-025-02694-3",
-          "https://pmc.ncbi.nlm.nih.gov/articles/PMC12413427/"
-        ]
-      }
-    },
-    {
-      "title_zh": "密集追踪数据的收集方案优化和分析方法改进",
-      "title_en": "Optimization of data collection plans and improvement of data analysis methods for intensive longitudinal studies",
-      "authors": [
-        "刘红云",
-        "窦佳宁",
-        "徐永泽"
-      ],
-      "journal": "心理科学进展",
-      "year": 2025,
-      "published_date": "2025-09-15",
-      "abstract_zh": "这是一篇研究构想文章，关注密集追踪设计的高测量负担、低依从性和缺失数据问题。研究计划把计划缺失设计引入DSEM框架，通过蒙特卡洛模拟比较不同测量方案，结合机器学习代理模型优化样本量规划，并探索贝叶斯缺失数据处理及工具开发。文中描述的是拟开展的方法研究与应用验证，不能当作所有方法均已实证证实的最终成果。",
-      "keywords": [
-        "纵向数据分析",
-        "结构方程模型",
-        "缺失数据分析",
-        "计划缺失设计",
-        "样本量规划"
+        "动态干预",
+        "反事实",
+        "lavaan"
       ],
       "recommendation": "值得阅读",
-      "reason": "适合建立研究设计意识：先决定采样频率、测量负担与缺失机制，再谈复杂模型。",
-      "doi": "10.3724/SP.J.1042.2025.1558",
-      "url": "https://doi.org/10.3724/SP.J.1042.2025.1558",
+      "reason": "帮助区分动态预测与动态干预因果问题。",
+      "doi": "10.1037/met0000748",
+      "url": "https://doi.org/10.1037/met0000748",
       "analysis_level": "brief",
       "source_basis": "abstract",
       "deep_analysis": null,
@@ -127,204 +137,136 @@
       "verification": {
         "bibliographic_status": "verified",
         "content_status": "abstract_checked",
-        "appraisal_status": "not_assessed",
-        "verified_at": "2026-11-05",
+        "appraisal_status": "limited",
+        "verified_at": "2026-11-09",
         "evidence_urls": [
-          "https://journal.psych.ac.cn/xlkxjz/CN/10.3724/SP.J.1042.2025.1558"
+          "https://pubmed.ncbi.nlm.nih.gov/40048215/"
         ]
       }
     },
     {
-      "title_zh": "密集追踪成对数据分析的模型建构探索",
-      "title_en": "Model construction for intensive longitudinal dyadic data analysis",
+      "title_zh": "用潜类别向量自回归模型刻画时间序列中的个体间质性异质性",
+      "title_en": "Modeling qualitative between-person heterogeneity in time series using latent class vector autoregressive models",
       "authors": [
-        "肖悦",
-        "刘红云",
-        "徐永泽"
-      ],
-      "journal": "心理科学进展",
-      "year": 2024,
-      "published_date": "2024-09-15",
-      "abstract_zh": "本文提出将DSEM扩展到具有相互依赖关系的成对数据：两人互相影响、一人对多人互动，以及群体成员两两互动。作者讨论个体内动态效应、伴侣效应和时间趋势处理，拟借助模拟、实证与软件开发验证方法。由于属于研究构想，文章的重点是方法框架和拟解决的统计难题，而不是已经得到确定的因果结论。",
-      "keywords": [
-        "密集追踪数据",
-        "成对研究设计",
-        "模型建构",
-        "动态结构方程模型"
-      ],
-      "recommendation": "拓展了解",
-      "reason": "帮助理解独立个体模型的边界，扩展到夫妻、同伴、治疗师—来访者等互动研究。",
-      "doi": "10.3724/SP.J.1042.2024.01450",
-      "url": "https://doi.org/10.3724/SP.J.1042.2024.01450",
-      "analysis_level": "brief",
-      "source_basis": "full_text",
-      "deep_analysis": null,
-      "authors_complete": true,
-      "verification": {
-        "bibliographic_status": "verified",
-        "content_status": "abstract_checked",
-        "appraisal_status": "not_assessed",
-        "verified_at": "2026-11-05",
-        "evidence_urls": [
-          "https://journal.psych.ac.cn/xlkxjz/CN/Y2024/V32/I9/1450"
-        ]
-      }
-    },
-    {
-      "title_zh": "使用广义线性混合模型树识别线性增长曲线中的亚群",
-      "title_en": "Subgroup detection in linear growth curve models with generalized linear mixed model (GLMM) trees",
-      "authors": [
-        "Marjolein Fokkema",
-        "Achim Zeileis"
+        "Anja F. Ernst",
+        "Jonas M. B. Haslbeck"
       ],
       "journal": "Behavior Research Methods",
-      "year": 2024,
-      "published_date": "2024-05-29",
-      "abstract_zh": "本文将广义线性混合模型树扩展到纵向增长曲线数据，利用树模型寻找轨迹形状不同的潜在亚群。模拟与真实数据比较显示，扩展算法比原始算法和LongCART更准确，表现与SEM树相近，且计算更快、对随机效应结构误设更不敏感。文章还提供可复现代码，可用来学习如何将传统混合效应模型与可解释机器学习结合。",
-      "keywords": [
-        "增长曲线模型",
-        "决策树",
-        "基于模型的递归分割",
-        "混合效应模型"
-      ],
-      "recommendation": "值得阅读",
-      "reason": "与计算机背景衔接自然，能学习混合模型和决策树的结合及纵向异质性识别。",
-      "doi": "10.3758/s13428-024-02389-1",
-      "url": "https://doi.org/10.3758/s13428-024-02389-1",
-      "analysis_level": "brief",
-      "source_basis": "full_text",
-      "deep_analysis": null,
-      "authors_complete": true,
-      "verification": {
-        "bibliographic_status": "verified",
-        "content_status": "abstract_checked",
-        "appraisal_status": "not_assessed",
-        "verified_at": "2026-11-05",
-        "evidence_urls": [
-          "https://link.springer.com/article/10.3758/s13428-024-02389-1",
-          "https://pubmed.ncbi.nlm.nih.gov/38811518/"
-        ]
-      }
-    },
-    {
-      "title_zh": "利用智能手机语音、多模态基准与主题分析开展可扩展抑郁监测",
-      "title_en": "Scalable depression monitoring with smartphone speech using a multimodal benchmark and topic analysis",
-      "authors": [
-        "Daniel Emden",
-        "Maike Richter",
-        "Astrid Chevance",
-        "Ramona Leenings",
-        "Julian Herpertz",
-        "Lara Gutfleisch",
-        "Anna Fleuchaus",
-        "Rogério Blitz",
-        "Vincent L Holstein",
-        "Janik Goltermann",
-        "Nils R Winter",
-        "Jennifer Spanagel",
-        "Susanne Meinert",
-        "Tiana Borgers",
-        "Kira Flinkenflügel",
-        "Frederike Stein",
-        "Nina Alexander",
-        "Hamidreza Jamalabadi",
-        "Jonathan Repple",
-        "Christian Dobel",
-        "Elisabeth J Leehr",
-        "Ronny Redlich",
-        "Ulrich W Ebner-Priemer",
-        "Igor Nenadić",
-        "Tilo Kircher",
-        "Udo Dannlowski",
-        "Tim Hahn",
-        "Nils Opel"
-      ],
-      "journal": "npj Digital Medicine",
       "year": 2026,
-      "published_date": "2026-02-28",
-      "abstract_zh": "研究分析284名德语成年人贡献的3151条每周语音日记，比较声学、词汇、文本嵌入与融合模型预测BDI抑郁症状评分的表现。句子嵌入是较强的单一模态：Qwen3-8B达到MAE 4.65、R² 0.34；E5与Qwen堆叠融合达到MAE 4.37、R² 0.41，额外声学信息贡献有限。作者采用按被试分组的嵌套交叉验证，提醒避免同一人跨训练测试集泄漏。",
+      "published_date": "2025-12-26",
+      "abstract_zh": "研究介绍潜类别向量自回归模型（LCVAR），将不同人的动态过程差异表达为若干潜在群组，而不是仅假设个体参数围绕总体均值连续变化。作者提供模型入门、模拟评估、新R软件包ClusterVAR以及可复现的情绪动态教程。该方法有助于研究不同人是否遵循不同动态机制，但类别数、数据长度和模型误设可能影响类别与参数的稳定恢复。",
       "keywords": [
-        "语音日记",
-        "抑郁症状预测",
-        "文本嵌入",
-        "eGeMAPS",
-        "分组交叉验证",
-        "多模态融合"
+        "潜类别VAR",
+        "异质性",
+        "ClusterVAR"
       ],
       "recommendation": "重点推荐",
-      "reason": "直接比较eGeMAPS与文本嵌入、分组交叉验证和回归基线，是语音心理测评的高价值案例。",
-      "doi": "10.1038/s41746-026-02486-9",
-      "url": "https://doi.org/10.1038/s41746-026-02486-9",
+      "reason": "有开放正文、模拟与R软件，适合方法深入学习。",
+      "doi": "10.3758/s13428-025-02909-7",
+      "url": "https://doi.org/10.3758/s13428-025-02909-7",
       "analysis_level": "deep",
       "source_basis": "full_text",
       "deep_analysis": {
-        "research_question": "自然情境下的语音日记中，声学特征、文本内容与嵌入表征哪一种更能预测抑郁症状严重程度？",
-        "study_design": "284人、3151条每周语音日记的纵向观察与机器学习基准比较。",
-        "methods": "提取eGeMAPS/ComParE、TF-IDF、文本嵌入，使用标准化、PCA、SVR与堆叠融合；按参与者分组的嵌套交叉验证，辅以主题分析和扰动实验。",
-        "findings": "Qwen3-8B单模态MAE 4.65、R² 0.34；E5+Qwen融合MAE 4.37、R² 0.41；声学增益有限，MDD子样本中E5单模态表现相对更好。",
-        "innovation": "在统一验证协议下直接比较语义与声学表征，关注被试泄漏和主题可解释性。",
-        "limitations": "BDI为自评指标，德语样本限制跨语言外推；观察设计不支持因果推断；主题解释并不等于模型机制解释。",
-        "relevance": "对语音心理测评中的特征选择、被试分组交叉验证与多模态增量价值评估具有直接参考价值。"
+        "research_question": "如何识别个体动态系统之间的离散类型差异？",
+        "study_design": "方法介绍、Monte Carlo模拟、情绪动态可复现教程。",
+        "methods": "潜类别VAR：每个类别拥有自己的滞后系数矩阵；以ClusterVAR估计并比较类别数量。",
+        "findings": "作者展示了估计和恢复类别/滞后阶数的模拟评估及可复现应用；结果依赖样本与模型条件。",
+        "innovation": "把个体间动态异质性表示为类别差异，而非单一正态连续分布。",
+        "limitations": "类别边界可能由模型假设或样本长度造成；需检验类别稳定性及可解释性。",
+        "relevance": "可用于研究心理状态动态模式是否存在不同亚型。"
       },
       "authors_complete": true,
       "verification": {
         "bibliographic_status": "verified",
         "content_status": "full_checked",
         "appraisal_status": "completed",
-        "verified_at": "2026-11-05",
+        "verified_at": "2026-11-09",
         "evidence_urls": [
-          "https://pubmed.ncbi.nlm.nih.gov/41764298/",
-          "https://pmc.ncbi.nlm.nih.gov/articles/PMC12996298/"
+          "https://link.springer.com/article/10.3758/s13428-025-02909-7"
         ]
       }
     },
     {
-      "title_zh": "以自监督语音表征辅助识别重性抑郁障碍的语音生物标志物研究",
-      "title_en": "Speech as a biomarker for supported diagnosis of major depressive disorder using self-supervised representations",
+      "title_zh": "连续时间模型在生态瞬时评估中的应用：方法入门与临床数据示范",
+      "title_en": "Applying continuous-time models to ecological momentary assessments: A practical introduction to the method and demonstration with clinical data",
       "authors": [
-        "Yunhan Lin",
-        "Biman Najika Liyanage",
-        "Chuan Shi",
-        "Zhengwen Zhu",
-        "Yutao Sun",
-        "Yaoyao Sun",
-        "Ziwei Sunny Zhang",
-        "Jun Yang",
-        "Chenyang Xu",
-        "Yundan Liao",
-        "Yanbao Tao",
-        "Zongfeng Li",
-        "Guorui Zhao",
-        "Weihua Yue"
+        "Samuel J. Abplanalp",
+        "Eric A. Reavis",
+        "Thanh P. Le",
+        "Michael F. Green"
       ],
-      "journal": "Nature Communications",
-      "year": 2026,
-      "published_date": "2026-06-15",
-      "abstract_zh": "研究在多中心数据中收集1816名参与者的23608条标准化语音，比较openSMILE传统声学特征与Whisper、WavLM、HuBERT等自监督表征用于抑郁分类。论文报告内部验证AUC为0.932，外部验证AUC为0.879，并用SHAP分析传统声学特征的重要性。结果提示预训练语音表征有潜力，但跨人群泛化、状态与特质区分以及临床落地仍需验证。",
+      "journal": "NPP—Digital Psychiatry and Neuroscience",
+      "year": 2024,
+      "published_date": "2024-03-07",
+      "abstract_zh": "这篇开放获取方法文章介绍如何使用连续时间模型分析生态瞬时评估数据，并以有精神疾病史退伍军人的孤独感与情绪状态为实例。作者解释随机微分方程、漂移矩阵、时间间隔重标定与冲击响应函数，强调心理过程可能在两次测量之间持续变化。文章同时提醒连续过程假设及采样频率与真实变化速度的匹配很重要，不能任意将稀疏测量外推至分钟尺度。",
       "keywords": [
-        "自监督学习",
-        "语音生物标志物",
-        "抑郁筛查",
-        "openSMILE",
-        "外部验证",
-        "SHAP"
+        "连续时间",
+        "EMA",
+        "随机微分方程"
+      ],
+      "recommendation": "重点推荐",
+      "reason": "直接讲连续时间模型原理与适用条件。",
+      "doi": "10.1038/s44277-024-00004-x",
+      "url": "https://doi.org/10.1038/s44277-024-00004-x",
+      "analysis_level": "deep",
+      "source_basis": "full_text",
+      "deep_analysis": {
+        "research_question": "EMA不等间隔测量中，如何解释心理状态的连续变化与相互作用？",
+        "study_design": "开放获取方法教程及退伍军人孤独感、情绪EMA临床示范。",
+        "methods": "连续时间随机微分方程；漂移矩阵A及转移矩阵exp(AΔt)；冲击响应函数。",
+        "findings": "文章展示连续时间模型如何把估计的局部依赖转化为任意合理时间间隔的动态解释，而非报告一种普遍优于离散模型的预测结果。",
+        "innovation": "以临床EMA案例直观说明连续时间参数、重标定与解释。",
+        "limitations": "连续过程、模型形式与采样时间尺度假设不可忽视；不应无限外推。",
+        "relevance": "适合未来开展情绪动态、时间尺度与连续时间研究。"
+      },
+      "authors_complete": true,
+      "verification": {
+        "bibliographic_status": "verified",
+        "content_status": "full_checked",
+        "appraisal_status": "completed",
+        "verified_at": "2026-11-09",
+        "evidence_urls": [
+          "https://www.nature.com/articles/s44277-024-00004-x",
+          "https://pubmed.ncbi.nlm.nih.gov/41360966/"
+        ]
+      }
+    },
+    {
+      "title_zh": "利用全自动虚拟人闲聊中的语音与文本检测抑郁",
+      "title_en": "Detecting depression through speech and text from casual talks with fully automated virtual humans",
+      "authors": [
+        "Lucía Gómez-Zaragozá",
+        "Alberto Altozano",
+        "Jose Llanes-Jurado",
+        "Maria Eleonora Minissi",
+        "Mariano Alcañiz Raya",
+        "Javier Marín-Morales"
+      ],
+      "journal": "Artificial Intelligence in Medicine",
+      "year": 2026,
+      "published_date": "2025-11-13",
+      "abstract_zh": "研究让101名参与者与虚拟人开展六种情绪情境的自然对话，其中42人有抑郁症状。作者比较语音、自动转录文本及融合嵌入的分类表现，并采用XGBoost的对话级聚合与GRU的轮次级时序建模。摘要报告对话级融合F1为0.648，高于语音0.566和文本0.329；GRU融合F1为0.556。结果提示多情境对话有研究潜力，但不能直接推广到临床诊断或其他语言人群。",
+      "keywords": [
+        "语音",
+        "文本",
+        "抑郁识别"
       ],
       "recommendation": "值得阅读",
-      "reason": "展示传统声学特征与自监督表征的严谨对照，并有外部验证和公开代码。",
-      "doi": "10.1038/s41467-026-74122-9",
-      "url": "https://doi.org/10.1038/s41467-026-74122-9",
+      "reason": "与语音心理测评及多模态增量价值评估直接相关。",
+      "doi": "10.1016/j.artmed.2025.103305",
+      "url": "https://doi.org/10.1016/j.artmed.2025.103305",
       "analysis_level": "brief",
-      "source_basis": "full_text",
+      "source_basis": "abstract",
       "deep_analysis": null,
       "authors_complete": true,
       "verification": {
         "bibliographic_status": "verified",
-        "content_status": "partial_checked",
+        "content_status": "abstract_checked",
         "appraisal_status": "limited",
-        "verified_at": "2026-11-05",
+        "verified_at": "2026-11-09",
         "evidence_urls": [
-          "https://pubmed.ncbi.nlm.nih.gov/42297825/",
-          "https://pmc.ncbi.nlm.nih.gov/articles/PMC13444143/"
+          "https://pubmed.ncbi.nlm.nih.gov/41241976/",
+          "https://panorama.upv.es/en/ipublic/item/10645702"
         ]
       }
     }
