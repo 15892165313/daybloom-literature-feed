@@ -1,5 +1,5 @@
 {
-  "schema_version": "pdf-access-0.1",
+  "schema_version": "pdf-access-0.2",
   "checked_at": "2026-11-12",
   "scope": "2026-10-26, 2026-11-02, 2026-11-09",
   "method": "Direct open and first-page review for 4 publisher PDFs; all other records unverified",
@@ -26,11 +26,12 @@
       "report_dates": [
         "2026-10-26"
       ],
-      "pdf_status": "not_verified",
+      "pdf_status": "official_pdf_entry_unverified",
       "pdf_url": null,
-      "pdf_source": null,
-      "verification_note": "PDF content not independently verified in this audit. DOI/article landing page remains available in main reports.",
-      "pdf_archived": false
+      "pdf_source": "journal",
+      "verification_note": "Official journal page visibly exposes PDF (PC) download entry; PDF bytes not validated.",
+      "pdf_archived": false,
+      "pdf_landing_page": "https://journal.psych.ac.cn/xlkxjz/EN/10.3724/SP.J.1042.2025.0717"
     },
     {
       "doi": "10.3724/SP.J.1042.2026.1629",
@@ -50,11 +51,12 @@
       "report_dates": [
         "2026-10-26"
       ],
-      "pdf_status": "not_verified",
+      "pdf_status": "official_pdf_entry_unverified",
       "pdf_url": null,
-      "pdf_source": null,
-      "verification_note": "PDF content not independently verified in this audit. DOI/article landing page remains available in main reports.",
-      "pdf_archived": false
+      "pdf_source": "journal",
+      "verification_note": "Official journal issue lists PDF (516KB) beside matching title/DOI; PDF bytes not validated.",
+      "pdf_archived": false,
+      "pdf_landing_page": "https://journal.psych.ac.cn/acps/EN/volumn/volumn_420.shtml"
     },
     {
       "doi": "10.3758/s13428-023-02083-8",
@@ -248,5 +250,7 @@
       "verification_note": "PDF content not independently verified in this audit. DOI/article landing page remains available in main reports.",
       "pdf_archived": false
     }
-  ]
+  ],
+  "summary_note": "Four publisher PDFs previously reported as direct-file verified; two more confirmed official PDF controls but not bytes; 14 others are unverified. No PDFs archived.",
+  "official_pdf_entry_unverified_count": 2
 }
