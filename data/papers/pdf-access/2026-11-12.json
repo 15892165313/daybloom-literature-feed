@@ -1,0 +1,252 @@
+{
+  "schema_version": "pdf-access-0.1",
+  "checked_at": "2026-11-12",
+  "scope": "2026-10-26, 2026-11-02, 2026-11-09",
+  "method": "Direct open and first-page review for 4 publisher PDFs; all other records unverified",
+  "total_recommendation_records": 21,
+  "unique_papers": 20,
+  "verified_pdf_count": 4,
+  "papers": [
+    {
+      "doi": "10.1037/met0000250",
+      "title_en": "A primer on two-level dynamic structural equation models for intensive longitudinal data in Mplus",
+      "report_dates": [
+        "2026-10-26",
+        "2026-11-09"
+      ],
+      "pdf_status": "not_verified",
+      "pdf_url": null,
+      "pdf_source": null,
+      "verification_note": "PDF content not independently verified in this audit. DOI/article landing page remains available in main reports.",
+      "pdf_archived": false
+    },
+    {
+      "doi": "10.3724/SP.J.1042.2025.0717",
+      "title_en": "Mediation analysis of intensive longitudinal data",
+      "report_dates": [
+        "2026-10-26"
+      ],
+      "pdf_status": "not_verified",
+      "pdf_url": null,
+      "pdf_source": null,
+      "verification_note": "PDF content not independently verified in this audit. DOI/article landing page remains available in main reports.",
+      "pdf_archived": false
+    },
+    {
+      "doi": "10.3724/SP.J.1042.2026.1629",
+      "title_en": "Time scales in intensive longitudinal data: Modeling, comparison and application of discrete time and continuous time",
+      "report_dates": [
+        "2026-10-26"
+      ],
+      "pdf_status": "not_verified",
+      "pdf_url": null,
+      "pdf_source": null,
+      "verification_note": "PDF content not independently verified in this audit. DOI/article landing page remains available in main reports.",
+      "pdf_archived": false
+    },
+    {
+      "doi": "10.3724/SP.J.1041.2026.0773",
+      "title_en": "Data analysis and sample size planning for intensive longitudinal intervention studies using dynamic structural equation modeling",
+      "report_dates": [
+        "2026-10-26"
+      ],
+      "pdf_status": "not_verified",
+      "pdf_url": null,
+      "pdf_source": null,
+      "verification_note": "PDF content not independently verified in this audit. DOI/article landing page remains available in main reports.",
+      "pdf_archived": false
+    },
+    {
+      "doi": "10.3758/s13428-023-02083-8",
+      "title_en": "Just-in-time adaptive ecological momentary assessment (JITA-EMA)",
+      "report_dates": [
+        "2026-10-26"
+      ],
+      "pdf_status": "verified_pdf",
+      "pdf_url": "https://link.springer.com/content/pdf/10.3758/s13428-023-02083-8.pdf",
+      "pdf_source": "publisher",
+      "verification_note": "Direct PDF returned by publisher; title and DOI matched on first page. Not archived in GitHub.",
+      "pdf_archived": false
+    },
+    {
+      "doi": "10.1109/JBHI.2025.3570900",
+      "title_en": "Automated Depression Detection From Text and Audio: A Systematic Review",
+      "report_dates": [
+        "2026-10-26"
+      ],
+      "pdf_status": "not_verified",
+      "pdf_url": null,
+      "pdf_source": null,
+      "verification_note": "PDF content not independently verified in this audit. DOI/article landing page remains available in main reports.",
+      "pdf_archived": false
+    },
+    {
+      "doi": "10.1038/s41746-026-02448-1",
+      "title_en": "Language-based detection of depression with machine learning: systematic review and meta-analysis",
+      "report_dates": [
+        "2026-10-26"
+      ],
+      "pdf_status": "not_verified",
+      "pdf_url": null,
+      "pdf_source": null,
+      "verification_note": "PDF content not independently verified in this audit. DOI/article landing page remains available in main reports.",
+      "pdf_archived": false
+    },
+    {
+      "doi": "10.1037/met0000749",
+      "title_en": "Timescale mismatch in intensive longitudinal data: Current issues and possible solutions based on dynamic structural equation models",
+      "report_dates": [
+        "2026-11-02"
+      ],
+      "pdf_status": "not_verified",
+      "pdf_url": null,
+      "pdf_source": null,
+      "verification_note": "PDF content not independently verified in this audit. DOI/article landing page remains available in main reports.",
+      "pdf_archived": false
+    },
+    {
+      "doi": "10.3758/s13428-025-02694-3",
+      "title_en": "Modeling within-level latent interaction effects in multilevel vector-autoregressive models",
+      "report_dates": [
+        "2026-11-02"
+      ],
+      "pdf_status": "verified_pdf",
+      "pdf_url": "https://link.springer.com/content/pdf/10.3758/s13428-025-02694-3.pdf",
+      "pdf_source": "publisher",
+      "verification_note": "Direct PDF returned by publisher; title and DOI matched on first page. Not archived in GitHub.",
+      "pdf_archived": false
+    },
+    {
+      "doi": "10.3724/SP.J.1042.2025.1558",
+      "title_en": "Optimization of data collection plans and improvement of data analysis methods for intensive longitudinal studies",
+      "report_dates": [
+        "2026-11-02"
+      ],
+      "pdf_status": "not_verified",
+      "pdf_url": null,
+      "pdf_source": null,
+      "verification_note": "PDF content not independently verified in this audit. DOI/article landing page remains available in main reports.",
+      "pdf_archived": false
+    },
+    {
+      "doi": "10.3724/SP.J.1042.2024.01450",
+      "title_en": "Model construction for intensive longitudinal dyadic data analysis",
+      "report_dates": [
+        "2026-11-02"
+      ],
+      "pdf_status": "not_verified",
+      "pdf_url": null,
+      "pdf_source": null,
+      "verification_note": "PDF content not independently verified in this audit. DOI/article landing page remains available in main reports.",
+      "pdf_archived": false
+    },
+    {
+      "doi": "10.3758/s13428-024-02389-1",
+      "title_en": "Subgroup detection in linear growth curve models with generalized linear mixed model (GLMM) trees",
+      "report_dates": [
+        "2026-11-02"
+      ],
+      "pdf_status": "verified_pdf",
+      "pdf_url": "https://link.springer.com/content/pdf/10.3758/s13428-024-02389-1.pdf",
+      "pdf_source": "publisher",
+      "verification_note": "Direct PDF returned by publisher; title and DOI matched on first page. Not archived in GitHub.",
+      "pdf_archived": false
+    },
+    {
+      "doi": "10.1038/s41746-026-02486-9",
+      "title_en": "Scalable depression monitoring with smartphone speech using a multimodal benchmark and topic analysis",
+      "report_dates": [
+        "2026-11-02"
+      ],
+      "pdf_status": "not_verified",
+      "pdf_url": null,
+      "pdf_source": null,
+      "verification_note": "PDF content not independently verified in this audit. DOI/article landing page remains available in main reports.",
+      "pdf_archived": false
+    },
+    {
+      "doi": "10.1038/s41467-026-74122-9",
+      "title_en": "Speech as a biomarker for supported diagnosis of major depressive disorder using self-supervised representations",
+      "report_dates": [
+        "2026-11-02"
+      ],
+      "pdf_status": "not_verified",
+      "pdf_url": null,
+      "pdf_source": null,
+      "verification_note": "PDF content not independently verified in this audit. DOI/article landing page remains available in main reports.",
+      "pdf_archived": false
+    },
+    {
+      "doi": "10.1037/a0038889",
+      "title_en": "A critique of the cross-lagged panel model",
+      "report_dates": [
+        "2026-11-09"
+      ],
+      "pdf_status": "not_verified",
+      "pdf_url": null,
+      "pdf_source": null,
+      "verification_note": "PDF content not independently verified in this audit. DOI/article landing page remains available in main reports.",
+      "pdf_archived": false
+    },
+    {
+      "doi": "10.1080/10705511.2017.1406803",
+      "title_en": "Dynamic Structural Equation Models",
+      "report_dates": [
+        "2026-11-09"
+      ],
+      "pdf_status": "not_verified",
+      "pdf_url": null,
+      "pdf_source": null,
+      "verification_note": "PDF content not independently verified in this audit. DOI/article landing page remains available in main reports.",
+      "pdf_archived": false
+    },
+    {
+      "doi": "10.1037/met0000748",
+      "title_en": "A tutorial on estimating dynamic treatment regimes from observational longitudinal data using lavaan",
+      "report_dates": [
+        "2026-11-09"
+      ],
+      "pdf_status": "not_verified",
+      "pdf_url": null,
+      "pdf_source": null,
+      "verification_note": "PDF content not independently verified in this audit. DOI/article landing page remains available in main reports.",
+      "pdf_archived": false
+    },
+    {
+      "doi": "10.3758/s13428-025-02909-7",
+      "title_en": "Modeling qualitative between-person heterogeneity in time series using latent class vector autoregressive models",
+      "report_dates": [
+        "2026-11-09"
+      ],
+      "pdf_status": "verified_pdf",
+      "pdf_url": "https://link.springer.com/content/pdf/10.3758/s13428-025-02909-7.pdf",
+      "pdf_source": "publisher",
+      "verification_note": "Direct PDF returned by publisher; title and DOI matched on first page. Not archived in GitHub.",
+      "pdf_archived": false
+    },
+    {
+      "doi": "10.1038/s44277-024-00004-x",
+      "title_en": "Applying continuous-time models to ecological momentary assessments: A practical introduction to the method and demonstration with clinical data",
+      "report_dates": [
+        "2026-11-09"
+      ],
+      "pdf_status": "not_verified",
+      "pdf_url": null,
+      "pdf_source": null,
+      "verification_note": "PDF content not independently verified in this audit. DOI/article landing page remains available in main reports.",
+      "pdf_archived": false
+    },
+    {
+      "doi": "10.1016/j.artmed.2025.103305",
+      "title_en": "Detecting depression through speech and text from casual talks with fully automated virtual humans",
+      "report_dates": [
+        "2026-11-09"
+      ],
+      "pdf_status": "not_verified",
+      "pdf_url": null,
+      "pdf_source": null,
+      "verification_note": "PDF content not independently verified in this audit. DOI/article landing page remains available in main reports.",
+      "pdf_archived": false
+    }
+  ]
+}
